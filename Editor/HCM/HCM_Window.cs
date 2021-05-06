@@ -13,13 +13,13 @@ public class HCM_Window : EditorWindow{
     }
 
     void Awake(){
-        HCMSettings = (HCM_Data)AssetDatabase.LoadAssetAtPath("Assets/Settings/HCM.asset", typeof(HCM_Data));
+        HCMSettings = (HCM_Data)AssetDatabase.LoadAssetAtPath("Packages/com.ferdi.hcm/Settings/HCM.asset", typeof(HCM_Data));
     }
     
     void OnGUI(){
 
         if(HCMSettings == null){
-            HCMSettings = (HCM_Data)AssetDatabase.LoadAssetAtPath("Assets/Settings/HCM.asset", typeof(HCM_Data));
+            HCMSettings = (HCM_Data)AssetDatabase.LoadAssetAtPath("Packages/com.ferdi.hcm/Settings/HCM.asset", typeof(HCM_Data));
         }
 
         Undo.RecordObject(HCMSettings, "Changed Settings");

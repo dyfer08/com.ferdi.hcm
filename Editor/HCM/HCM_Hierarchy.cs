@@ -15,17 +15,12 @@ public class HCM_Hierarchy {
 
 		if(M_HCMSettings == null){
 
-			M_HCMSettings = (HCM_Data)AssetDatabase.LoadAssetAtPath("Assets/Settings/HCM.asset", typeof(HCM_Data));	
+			M_HCMSettings = (HCM_Data)AssetDatabase.LoadAssetAtPath("Packages/com.ferdi.hcm/Settings/HCM.asset", typeof(HCM_Data));	
 
 			if(M_HCMSettings == null){
-
-				if (!AssetDatabase.IsValidFolder("Assets/Settings")){
-            		AssetDatabase.CreateFolder("Assets", "Settings");
-				}
-
 				HCM_Data NewHCM = new HCM_Data();
-				AssetDatabase.CreateAsset(NewHCM, "Assets/Settings/HCM.asset");
-				M_HCMSettings = (HCM_Data)AssetDatabase.LoadAssetAtPath("Assets/Settings/HCM.asset", typeof(HCM_Data));
+				AssetDatabase.CreateAsset(NewHCM, "Packages/com.ferdi.hcm/Settings/HCM.asset");
+				M_HCMSettings = (HCM_Data)AssetDatabase.LoadAssetAtPath("Packages/com.ferdi.hcm/Settings/HCM.asset", typeof(HCM_Data));
 				HCM_Data.TagColor NTC = new HCM_Data.TagColor();
 				NTC.Tag = "Untagged";
 				NTC.Color = Color.white;
