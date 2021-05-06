@@ -4,7 +4,6 @@
   "displayName": "Hierarchy Color Manager",
   "description": "Assign colors to the gameobjects in your hierarchy window based on their tags.",
   "unity": "2019.1",
-  "unityRelease": "0b5",
   "keywords": [
     "Ferdi",
     "Hierarchy",
