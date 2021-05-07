@@ -14,5 +14,9 @@
     "name": "Ferdi",
     "email": "dervieuxferdinand@gmail.com",
     "url": "https://ferdinanddervieux.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dyfer08/com.ferdi.hcm.git"
   }
 }
