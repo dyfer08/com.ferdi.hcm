@@ -1,6 +1,6 @@
 {
   "name": "com.ferdi.hcm",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "displayName": "Hierarchy Color Manager",
   "description": "Assign colors to the gameobjects in your hierarchy window based on their tags.",
   "unity": "2019.1",
