@@ -1,4 +1,4 @@
-Hierarchy Color Manager copyright © 2020 Ferdinand Dervieux
+Hierarchy Color Manager copyright © 2021 Ferdinand Dervieux
 
 Licensed under the MIT License.
 
