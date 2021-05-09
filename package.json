@@ -1,8 +1,8 @@
 {
   "name": "com.ferdi.hcm",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "displayName": "Hierarchy Color Manager",
-  "description": "Assign colors to the gameobjects in your hierarchy window based on their tags.\n\nChangelog :\n\nv 1.0.5 [2021.05.09]\nPackage details updated.\n\nv 1.0.1 [2021.05.07]\nSettings file has been moved to the Packages folder to prevent accidental delete.\n \nv 1.0.0 [2021.05.06]\nInitial version of the Hierarchy Color Manager package.",
+  "description": "Assign colors to the gameobjects in your hierarchy window based on their tags.\n\nChangelog :\n\nv 1.0.6 [2021.05.09]\nFix Assembly definition to Editor only\n\nv 1.0.5 [2021.05.09]\nPackage details updated.\n\nv 1.0.1 [2021.05.07]\nSettings file has been moved to the Packages folder to prevent accidental delete.\n \nv 1.0.0 [2021.05.06]\nInitial version of the Hierarchy Color Manager package.",
   "unity": "2019.1",
   "keywords": [
     "Ferdi",
