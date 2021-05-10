@@ -107,12 +107,6 @@ public class HCM_Window : EditorWindow{
         }
 
         EditorGUILayout.EndScrollView();
-
-        if (GUI.changed){
-            EditorUtility.SetDirty(HCMSettings);
-            AssetDatabase.SaveAssets();
-        }
-
     }
 
     void DrawUILine(Color color, int thickness = 2, int padding = 10){
