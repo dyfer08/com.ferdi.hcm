@@ -6,8 +6,8 @@ namespace Ferdi{
 public class HCM_Data : ScriptableObject {
 	[System.Serializable]
 	public class TagColor {
-		public string Tag = "Untagged";
-		public Color Color = Color.white;
+		public string Tag;
+		public Color Color;
 	}
 	public List<TagColor> TagColors = new List<TagColor>(1);
 }
