@@ -1,3 +1,16 @@
 {
-	"name": "Ferdi.com.ferdi.hcm.Editor"
+    "name": "Ferdi.com.ferdi.hcm.Editor",
+    "rootNamespace": "",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
