@@ -18,7 +18,7 @@ public class HCM_Hierarchy {
 		}
 
 		Rect Rectangle = new Rect (SelectionRect);
-		Rectangle.x = 0;
+		Rectangle.x = 32;
 		Rectangle.width = 4;
 
 		Object Obj = EditorUtility.InstanceIDToObject(InstanceID);
